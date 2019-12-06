@@ -11,11 +11,6 @@ class HomeController extends Controller
     return view('home');
   }
 
-  public function contact()
-  {
-    return view('contact');
-  }
-
   public function blogPost($id, $welcome =1)
   {
     $pages = [
